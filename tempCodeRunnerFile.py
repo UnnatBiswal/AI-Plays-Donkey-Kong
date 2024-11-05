@@ -1,1 +1,0 @@
-barrel.check_fall()

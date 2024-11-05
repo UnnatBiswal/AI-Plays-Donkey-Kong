@@ -22,35 +22,35 @@ slope = section_height // 8
 barrel_spawn_time = 360
 barrel_count = barrel_spawn_time / 2
 barrel_time = 360
-barrel_img = pygame.transform.scale(pygame.image.load("Ai-Plays-Donkey-Kong/assets/barrels/barrel.png"),
+barrel_img = pygame.transform.scale(pygame.image.load("assets/barrels/barrel.png"),
                                     (section_width * 1.2, section_height * 1.8))
-flames_img = pygame.transform.scale(pygame.image.load("Ai-Plays-Donkey-Kong/assets/fire.png"),
+flames_img = pygame.transform.scale(pygame.image.load("assets/fire.png"),
                                     (section_width * 2, section_height))
-barrel_side = pygame.transform.scale(pygame.image.load("Ai-Plays-Donkey-Kong/assets/barrels/barrel2.png"),
+barrel_side = pygame.transform.scale(pygame.image.load("assets/barrels/barrel2.png"),
                                      (section_width * 1.5, section_height * 2))
-dk1 = pygame.transform.scale(pygame.image.load("Ai-Plays-Donkey-Kong/assets/donkey's dong/dk1.png"),
+dk1 = pygame.transform.scale(pygame.image.load("assets/donkey's dong/dk1.png"),
                              (section_width * 5, section_height * 5))
-dk2 = pygame.transform.scale(pygame.image.load("Ai-Plays-Donkey-Kong/assets/donkey's dong/dk2.png"),
+dk2 = pygame.transform.scale(pygame.image.load("assets/donkey's dong/dk2.png"),
                              (section_width * 5, section_height * 5))
-dk3 = pygame.transform.scale(pygame.image.load("Ai-Plays-Donkey-Kong/assets/donkey's dong/dk3.png"),
+dk3 = pygame.transform.scale(pygame.image.load("assets/donkey's dong/dk3.png"),
                              (section_width * 5, section_height * 5))
-peach1 = pygame.transform.scale(pygame.image.load('Ai-Plays-Donkey-Kong/assets/peach/peach1.png'),
+peach1 = pygame.transform.scale(pygame.image.load('assets/peach/peach1.png'),
                                 (2 * section_width, 2 * section_height))
-peach2 = pygame.transform.scale(pygame.image.load('Ai-Plays-Donkey-Kong/assets/peach/peach2.png'),
+peach2 = pygame.transform.scale(pygame.image.load('assets/peach/peach2.png'),
                                 (2 * section_width, 2 * section_height))
-fireball = pygame.transform.scale(pygame.image.load('Ai-Plays-Donkey-Kong/assets/fireball.png'),
+fireball = pygame.transform.scale(pygame.image.load('assets/fireball.png'),
                                   (1.5 * section_width, 2 * section_height))
-fireball2 = pygame.transform.scale(pygame.image.load('Ai-Plays-Donkey-Kong/assets/fireball2.png'),
+fireball2 = pygame.transform.scale(pygame.image.load('assets/fireball2.png'),
                                    (1.5 * section_width, 2 * section_height))
-standing = pygame.transform.scale(pygame.image.load('Ai-Plays-Donkey-Kong/assets/mario/standing.png'),
+standing = pygame.transform.scale(pygame.image.load('assets/mario/standing.png'),
                                   (1.5 * section_width, 2 * section_height))
-jumping = pygame.transform.scale(pygame.image.load('Ai-Plays-Donkey-Kong/assets/mario/jumping.png'),
+jumping = pygame.transform.scale(pygame.image.load('assets/mario/jumping.png'),
                                  (1.5 * section_width, 2 * section_height))
-running = pygame.transform.scale(pygame.image.load('Ai-Plays-Donkey-Kong/assets/mario/running.png'),
+running = pygame.transform.scale(pygame.image.load('assets/mario/running.png'),
                                  (1.5 * section_width, 2 * section_height))
-climbing1 = pygame.transform.scale(pygame.image.load('Ai-Plays-Donkey-Kong/assets/mario/climbing1.png'),
+climbing1 = pygame.transform.scale(pygame.image.load('assets/mario/climbing1.png'),
                                    (1.5 * section_width, 2 * section_height))
-climbing2 = pygame.transform.scale(pygame.image.load('Ai-Plays-Donkey-Kong/assets/mario/climbing2.png'),
+climbing2 = pygame.transform.scale(pygame.image.load('assets/mario/climbing2.png'),
                                    (1.5 * section_width, 2 * section_height))
 
 fireball_trigger = False
